@@ -1,0 +1,14 @@
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\b\XamlBuildTask.4.0.0.0.Fakes.xml
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\b\XamlBuildTask.4.0.0.0.Fakes.dll
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\b\XamlBuildTask.4.0.0.0.Fakes.pdb
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\b\Microsoft.WizardFramework.dll
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\b\Microsoft.WizardFrameworkVS.dll
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\b\Newtonsoft.Json.dll
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\b\System.Net.Http.Formatting.dll
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\b\System.Web.Http.dll
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\b\System.Net.Http.Formatting.xml
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\b\System.Web.Http.xml
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\o\f.csprojResolveAssemblyReference.cache
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\o\XamlBuildTask.4.0.0.0.Fakes.dll
+C:\Users\simran\Documents\Visual Studio 2013\Projects\myproject\myproject\obj\Debug\Fakes\xbt\o\XamlBuildTask.4.0.0.0.Fakes.pdb

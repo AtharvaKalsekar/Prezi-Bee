@@ -1,0 +1,1316 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XamlBuildTask.4.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData">
+            <summary>Shim type of Microsoft.Build.Tasks.Xaml.AttributeData</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.#ctor(Microsoft.Build.Tasks.Xaml.AttributeData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.Constructor">
+            <summary>Sets the shim of AttributeData.AttributeData()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.ParametersGet">
+            <summary>Sets the shim of AttributeData.get_Parameters()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.PropertiesGet">
+            <summary>Sets the shim of AttributeData.get_Properties()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.StaticConstructor">
+            <summary>Sets the shim of AttributeData.AttributeData()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.TypeGet">
+            <summary>Sets the shim of AttributeData.get_Type()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.TypeSetXamlType">
+            <summary>Sets the shim of AttributeData.set_Type(XamlType value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.AllInstances.ParametersGet">
+            <summary>Sets the shim of AttributeData.get_Parameters()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.AllInstances.PropertiesGet">
+            <summary>Sets the shim of AttributeData.get_Properties()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.AllInstances.TypeGet">
+            <summary>Sets the shim of AttributeData.get_Type()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeData.AllInstances.TypeSetXamlType">
+            <summary>Sets the shim of AttributeData.set_Type(XamlType value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData">
+            <summary>Shim type of Microsoft.Build.Tasks.Xaml.AttributeParameterData</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.#ctor(Microsoft.Build.Tasks.Xaml.AttributeParameterData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.ArrayContentsGet">
+            <summary>Sets the shim of AttributeParameterData.get_ArrayContents()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.Constructor">
+            <summary>Sets the shim of AttributeParameterData.AttributeParameterData()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.ConstructorXamlTypeIEnumerableOfAttributeParameterData">
+            <summary>Sets the shim of AttributeParameterData.AttributeParameterData(XamlType type, IEnumerable`1&lt;AttributeParameterData&gt; arrayContents)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.ConstructorXamlTypeObject">
+            <summary>Sets the shim of AttributeParameterData.AttributeParameterData(XamlType type, Object value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.ConstructorXamlTypeString">
+            <summary>Sets the shim of AttributeParameterData.AttributeParameterData(XamlType type, String textValue)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.TextValueGet">
+            <summary>Sets the shim of AttributeParameterData.get_TextValue()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.TextValueSetString">
+            <summary>Sets the shim of AttributeParameterData.set_TextValue(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.TypeGet">
+            <summary>Sets the shim of AttributeParameterData.get_Type()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.TypeSetXamlType">
+            <summary>Sets the shim of AttributeParameterData.set_Type(XamlType value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.ValueGet">
+            <summary>Sets the shim of AttributeParameterData.get_Value()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.ValueSetObject">
+            <summary>Sets the shim of AttributeParameterData.set_Value(Object value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.AllInstances.ArrayContentsGet">
+            <summary>Sets the shim of AttributeParameterData.get_ArrayContents()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.AllInstances.TextValueGet">
+            <summary>Sets the shim of AttributeParameterData.get_TextValue()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.AllInstances.TextValueSetString">
+            <summary>Sets the shim of AttributeParameterData.set_TextValue(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.AllInstances.TypeGet">
+            <summary>Sets the shim of AttributeParameterData.get_Type()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.AllInstances.TypeSetXamlType">
+            <summary>Sets the shim of AttributeParameterData.set_Type(XamlType value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.AllInstances.ValueGet">
+            <summary>Sets the shim of AttributeParameterData.get_Value()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimAttributeParameterData.AllInstances.ValueSetObject">
+            <summary>Sets the shim of AttributeParameterData.set_Value(Object value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext">
+            <summary>Shim type of Microsoft.Build.Tasks.Xaml.BuildExtensionContext</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.#ctor(Microsoft.Build.Tasks.Xaml.BuildExtensionContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AddGeneratedFileString">
+            <summary>Sets the shim of BuildExtensionContext.AddGeneratedFile(String fileName)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AddGeneratedResourceFileString">
+            <summary>Sets the shim of BuildExtensionContext.AddGeneratedResourceFile(String fileName)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AssemblyNameGet">
+            <summary>Sets the shim of BuildExtensionContext.get_AssemblyName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AssemblyNameSetString">
+            <summary>Sets the shim of BuildExtensionContext.set_AssemblyName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.Constructor">
+            <summary>Sets the shim of BuildExtensionContext.BuildExtensionContext()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.GeneratedFilesGet">
+            <summary>Sets the shim of BuildExtensionContext.get_GeneratedFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.GeneratedResourceFilesGet">
+            <summary>Sets the shim of BuildExtensionContext.get_GeneratedResourceFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.IsInProcessXamlMarkupCompileGet">
+            <summary>Sets the shim of BuildExtensionContext.get_IsInProcessXamlMarkupCompile()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.IsInProcessXamlMarkupCompileSetBoolean">
+            <summary>Sets the shim of BuildExtensionContext.set_IsInProcessXamlMarkupCompile(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.LanguageGet">
+            <summary>Sets the shim of BuildExtensionContext.get_Language()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.LanguageSetString">
+            <summary>Sets the shim of BuildExtensionContext.set_Language(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.LocalAssemblyGet">
+            <summary>Sets the shim of BuildExtensionContext.get_LocalAssembly()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.LocalAssemblySetString">
+            <summary>Sets the shim of BuildExtensionContext.set_LocalAssembly(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.OutputPathGet">
+            <summary>Sets the shim of BuildExtensionContext.get_OutputPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.OutputPathSetString">
+            <summary>Sets the shim of BuildExtensionContext.set_OutputPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.ReferencesGet">
+            <summary>Sets the shim of BuildExtensionContext.get_References()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.RootNamespaceGet">
+            <summary>Sets the shim of BuildExtensionContext.get_RootNamespace()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.RootNamespaceSetString">
+            <summary>Sets the shim of BuildExtensionContext.set_RootNamespace(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.SourceCodeFilesGet">
+            <summary>Sets the shim of BuildExtensionContext.get_SourceCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.StaticConstructor">
+            <summary>Sets the shim of BuildExtensionContext.BuildExtensionContext()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.XamlBuildLoggerGet">
+            <summary>Sets the shim of BuildExtensionContext.get_XamlBuildLogger()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.XamlBuildLoggerSetTaskLoggingHelper">
+            <summary>Sets the shim of BuildExtensionContext.set_XamlBuildLogger(TaskLoggingHelper value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.AddGeneratedFileString">
+            <summary>Sets the shim of BuildExtensionContext.AddGeneratedFile(String fileName)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.AddGeneratedResourceFileString">
+            <summary>Sets the shim of BuildExtensionContext.AddGeneratedResourceFile(String fileName)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.AssemblyNameGet">
+            <summary>Sets the shim of BuildExtensionContext.get_AssemblyName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.AssemblyNameSetString">
+            <summary>Sets the shim of BuildExtensionContext.set_AssemblyName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.GeneratedFilesGet">
+            <summary>Sets the shim of BuildExtensionContext.get_GeneratedFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.GeneratedResourceFilesGet">
+            <summary>Sets the shim of BuildExtensionContext.get_GeneratedResourceFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.IsInProcessXamlMarkupCompileGet">
+            <summary>Sets the shim of BuildExtensionContext.get_IsInProcessXamlMarkupCompile()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.IsInProcessXamlMarkupCompileSetBoolean">
+            <summary>Sets the shim of BuildExtensionContext.set_IsInProcessXamlMarkupCompile(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.LanguageGet">
+            <summary>Sets the shim of BuildExtensionContext.get_Language()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.LanguageSetString">
+            <summary>Sets the shim of BuildExtensionContext.set_Language(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.LocalAssemblyGet">
+            <summary>Sets the shim of BuildExtensionContext.get_LocalAssembly()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.LocalAssemblySetString">
+            <summary>Sets the shim of BuildExtensionContext.set_LocalAssembly(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.OutputPathGet">
+            <summary>Sets the shim of BuildExtensionContext.get_OutputPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.OutputPathSetString">
+            <summary>Sets the shim of BuildExtensionContext.set_OutputPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.ReferencesGet">
+            <summary>Sets the shim of BuildExtensionContext.get_References()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.RootNamespaceGet">
+            <summary>Sets the shim of BuildExtensionContext.get_RootNamespace()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.RootNamespaceSetString">
+            <summary>Sets the shim of BuildExtensionContext.set_RootNamespace(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.SourceCodeFilesGet">
+            <summary>Sets the shim of BuildExtensionContext.get_SourceCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.XamlBuildLoggerGet">
+            <summary>Sets the shim of BuildExtensionContext.get_XamlBuildLogger()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimBuildExtensionContext.AllInstances.XamlBuildLoggerSetTaskLoggingHelper">
+            <summary>Sets the shim of BuildExtensionContext.set_XamlBuildLogger(TaskLoggingHelper value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData">
+            <summary>Shim type of Microsoft.Build.Tasks.Xaml.ClassData</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.#ctor(Microsoft.Build.Tasks.Xaml.ClassData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AttributesGet">
+            <summary>Sets the shim of ClassData.get_Attributes()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.BaseTypeGet">
+            <summary>Sets the shim of ClassData.get_BaseType()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.BaseTypeSetXamlType">
+            <summary>Sets the shim of ClassData.set_BaseType(XamlType value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.CodeSnippetsGet">
+            <summary>Sets the shim of ClassData.get_CodeSnippets()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.Constructor">
+            <summary>Sets the shim of ClassData.ClassData()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.EmbeddedResourceFileNameGet">
+            <summary>Sets the shim of ClassData.get_EmbeddedResourceFileName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.EmbeddedResourceFileNameSetString">
+            <summary>Sets the shim of ClassData.set_EmbeddedResourceFileName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.EmbeddedResourceXamlGet">
+            <summary>Sets the shim of ClassData.get_EmbeddedResourceXaml()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.EmbeddedResourceXamlSetXamlNodeList">
+            <summary>Sets the shim of ClassData.set_EmbeddedResourceXaml(XamlNodeList value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.FileNameGet">
+            <summary>Sets the shim of ClassData.get_FileName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.FileNameSetString">
+            <summary>Sets the shim of ClassData.set_FileName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.HelperClassFullNameGet">
+            <summary>Sets the shim of ClassData.get_HelperClassFullName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.HelperClassFullNameSetString">
+            <summary>Sets the shim of ClassData.set_HelperClassFullName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.IsPublicGet">
+            <summary>Sets the shim of ClassData.get_IsPublic()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.IsPublicSetBoolean">
+            <summary>Sets the shim of ClassData.set_IsPublic(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.NameGet">
+            <summary>Sets the shim of ClassData.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.NameSetString">
+            <summary>Sets the shim of ClassData.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.NamedObjectsGet">
+            <summary>Sets the shim of ClassData.get_NamedObjects()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.NamespaceGet">
+            <summary>Sets the shim of ClassData.get_Namespace()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.NamespaceSetString">
+            <summary>Sets the shim of ClassData.set_Namespace(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.PropertiesGet">
+            <summary>Sets the shim of ClassData.get_Properties()</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.AttributesGet">
+            <summary>Sets the shim of ClassData.get_Attributes()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.BaseTypeGet">
+            <summary>Sets the shim of ClassData.get_BaseType()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.BaseTypeSetXamlType">
+            <summary>Sets the shim of ClassData.set_BaseType(XamlType value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.CodeSnippetsGet">
+            <summary>Sets the shim of ClassData.get_CodeSnippets()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.EmbeddedResourceFileNameGet">
+            <summary>Sets the shim of ClassData.get_EmbeddedResourceFileName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.EmbeddedResourceFileNameSetString">
+            <summary>Sets the shim of ClassData.set_EmbeddedResourceFileName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.EmbeddedResourceXamlGet">
+            <summary>Sets the shim of ClassData.get_EmbeddedResourceXaml()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.EmbeddedResourceXamlSetXamlNodeList">
+            <summary>Sets the shim of ClassData.set_EmbeddedResourceXaml(XamlNodeList value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.FileNameGet">
+            <summary>Sets the shim of ClassData.get_FileName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.FileNameSetString">
+            <summary>Sets the shim of ClassData.set_FileName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.HelperClassFullNameGet">
+            <summary>Sets the shim of ClassData.get_HelperClassFullName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.HelperClassFullNameSetString">
+            <summary>Sets the shim of ClassData.set_HelperClassFullName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.IsPublicGet">
+            <summary>Sets the shim of ClassData.get_IsPublic()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.IsPublicSetBoolean">
+            <summary>Sets the shim of ClassData.set_IsPublic(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.NameGet">
+            <summary>Sets the shim of ClassData.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.NameSetString">
+            <summary>Sets the shim of ClassData.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.NamedObjectsGet">
+            <summary>Sets the shim of ClassData.get_NamedObjects()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.NamespaceGet">
+            <summary>Sets the shim of ClassData.get_Namespace()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.NamespaceSetString">
+            <summary>Sets the shim of ClassData.set_Namespace(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimClassData.AllInstances.PropertiesGet">
+            <summary>Sets the shim of ClassData.get_Properties()</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task">
+            <summary>Shim type of Microsoft.Build.Tasks.Xaml.CompilationPass2Task</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.#ctor(Microsoft.Build.Tasks.Xaml.CompilationPass2Task)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.Bind(Microsoft.Build.Framework.ITask)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.ApplicationMarkupGet">
+            <summary>Sets the shim of CompilationPass2Task.get_ApplicationMarkup()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.ApplicationMarkupSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_ApplicationMarkup(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.ApplicationMarkupWithTypeNameGet">
+            <summary>Sets the shim of CompilationPass2Task.get_ApplicationMarkupWithTypeName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.ApplicationMarkupWithTypeNameSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_ApplicationMarkupWithTypeName(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AssemblyNameGet">
+            <summary>Sets the shim of CompilationPass2Task.get_AssemblyName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AssemblyNameSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_AssemblyName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.BuildTaskPathGet">
+            <summary>Sets the shim of CompilationPass2Task.get_BuildTaskPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.BuildTaskPathSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_BuildTaskPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.Constructor">
+            <summary>Sets the shim of CompilationPass2Task.CompilationPass2Task()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.Execute">
+            <summary>Sets the shim of CompilationPass2Task.Execute()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.ExtensionGeneratedCodeFilesGet">
+            <summary>Sets the shim of CompilationPass2Task.get_ExtensionGeneratedCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.ExtensionGeneratedCodeFilesSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_ExtensionGeneratedCodeFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.IsInProcessXamlMarkupCompileGet">
+            <summary>Sets the shim of CompilationPass2Task.get_IsInProcessXamlMarkupCompile()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.IsInProcessXamlMarkupCompileSetBoolean">
+            <summary>Sets the shim of CompilationPass2Task.set_IsInProcessXamlMarkupCompile(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.LanguageGet">
+            <summary>Sets the shim of CompilationPass2Task.get_Language()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.LanguageSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_Language(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.LocalAssemblyReferenceGet">
+            <summary>Sets the shim of CompilationPass2Task.get_LocalAssemblyReference()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.LocalAssemblyReferenceSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_LocalAssemblyReference(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.MSBuildProjectDirectoryGet">
+            <summary>Sets the shim of CompilationPass2Task.get_MSBuildProjectDirectory()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.MSBuildProjectDirectorySetString">
+            <summary>Sets the shim of CompilationPass2Task.set_MSBuildProjectDirectory(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.OutputPathGet">
+            <summary>Sets the shim of CompilationPass2Task.get_OutputPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.OutputPathSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_OutputPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.ReferencesGet">
+            <summary>Sets the shim of CompilationPass2Task.get_References()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.ReferencesSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_References(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.RootNamespaceGet">
+            <summary>Sets the shim of CompilationPass2Task.get_RootNamespace()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.RootNamespaceSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_RootNamespace(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.SourceCodeFilesGet">
+            <summary>Sets the shim of CompilationPass2Task.get_SourceCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.SourceCodeFilesSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_SourceCodeFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.XamlBuildTypeInspectionExtensionNamesGet">
+            <summary>Sets the shim of CompilationPass2Task.get_XamlBuildTypeInspectionExtensionNames()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.XamlBuildTypeInspectionExtensionNamesSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_XamlBuildTypeInspectionExtensionNames(ITaskItem[] value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.ApplicationMarkupGet">
+            <summary>Sets the shim of CompilationPass2Task.get_ApplicationMarkup()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.ApplicationMarkupSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_ApplicationMarkup(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.ApplicationMarkupWithTypeNameGet">
+            <summary>Sets the shim of CompilationPass2Task.get_ApplicationMarkupWithTypeName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.ApplicationMarkupWithTypeNameSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_ApplicationMarkupWithTypeName(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.AssemblyNameGet">
+            <summary>Sets the shim of CompilationPass2Task.get_AssemblyName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.AssemblyNameSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_AssemblyName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.BuildTaskPathGet">
+            <summary>Sets the shim of CompilationPass2Task.get_BuildTaskPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.BuildTaskPathSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_BuildTaskPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.Execute">
+            <summary>Sets the shim of CompilationPass2Task.Execute()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.ExtensionGeneratedCodeFilesGet">
+            <summary>Sets the shim of CompilationPass2Task.get_ExtensionGeneratedCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.ExtensionGeneratedCodeFilesSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_ExtensionGeneratedCodeFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.IsInProcessXamlMarkupCompileGet">
+            <summary>Sets the shim of CompilationPass2Task.get_IsInProcessXamlMarkupCompile()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.IsInProcessXamlMarkupCompileSetBoolean">
+            <summary>Sets the shim of CompilationPass2Task.set_IsInProcessXamlMarkupCompile(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.LanguageGet">
+            <summary>Sets the shim of CompilationPass2Task.get_Language()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.LanguageSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_Language(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.LocalAssemblyReferenceGet">
+            <summary>Sets the shim of CompilationPass2Task.get_LocalAssemblyReference()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.LocalAssemblyReferenceSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_LocalAssemblyReference(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.MSBuildProjectDirectoryGet">
+            <summary>Sets the shim of CompilationPass2Task.get_MSBuildProjectDirectory()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.MSBuildProjectDirectorySetString">
+            <summary>Sets the shim of CompilationPass2Task.set_MSBuildProjectDirectory(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.OutputPathGet">
+            <summary>Sets the shim of CompilationPass2Task.get_OutputPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.OutputPathSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_OutputPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.ReferencesGet">
+            <summary>Sets the shim of CompilationPass2Task.get_References()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.ReferencesSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_References(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.RootNamespaceGet">
+            <summary>Sets the shim of CompilationPass2Task.get_RootNamespace()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.RootNamespaceSetString">
+            <summary>Sets the shim of CompilationPass2Task.set_RootNamespace(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.SourceCodeFilesGet">
+            <summary>Sets the shim of CompilationPass2Task.get_SourceCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.SourceCodeFilesSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_SourceCodeFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.XamlBuildTypeInspectionExtensionNamesGet">
+            <summary>Sets the shim of CompilationPass2Task.get_XamlBuildTypeInspectionExtensionNames()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimCompilationPass2Task.AllInstances.XamlBuildTypeInspectionExtensionNamesSetITaskItemArray">
+            <summary>Sets the shim of CompilationPass2Task.set_XamlBuildTypeInspectionExtensionNames(ITaskItem[] value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask">
+            <summary>Shim type of Microsoft.Build.Tasks.Xaml.GenerateTemporaryAssemblyTask</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.#ctor(Microsoft.Build.Tasks.Xaml.GenerateTemporaryAssemblyTask)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.Bind(Microsoft.Build.Framework.ITask)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.ApplicationMarkupTypeNameGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_ApplicationMarkupTypeName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.ApplicationMarkupTypeNameSetString">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_ApplicationMarkupTypeName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AssemblyNameGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_AssemblyName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AssemblyNameSetString">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_AssemblyName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.CompileTargetNameGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_CompileTargetName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.CompileTargetNameSetString">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_CompileTargetName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.Constructor">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.GenerateTemporaryAssemblyTask()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.CurrentProjectGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_CurrentProject()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.CurrentProjectSetString">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_CurrentProject(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.Execute">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.Execute()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.GeneratedResourcesFilesGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_GeneratedResourcesFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.GeneratedResourcesFilesSetITaskItemArray">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_GeneratedResourcesFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.OutputPathGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_OutputPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.OutputPathSetString">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_OutputPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.ReferencePathsGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_ReferencePaths()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.ReferencePathsSetITaskItemArray">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_ReferencePaths(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.SourceCodeFilesGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_SourceCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.SourceCodeFilesSetITaskItemArray">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_SourceCodeFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.ApplicationMarkupTypeNameGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_ApplicationMarkupTypeName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.ApplicationMarkupTypeNameSetString">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_ApplicationMarkupTypeName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.AssemblyNameGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_AssemblyName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.AssemblyNameSetString">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_AssemblyName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.CompileTargetNameGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_CompileTargetName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.CompileTargetNameSetString">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_CompileTargetName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.CurrentProjectGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_CurrentProject()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.CurrentProjectSetString">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_CurrentProject(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.Execute">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.Execute()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.GeneratedResourcesFilesGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_GeneratedResourcesFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.GeneratedResourcesFilesSetITaskItemArray">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_GeneratedResourcesFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.OutputPathGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_OutputPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.OutputPathSetString">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_OutputPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.ReferencePathsGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_ReferencePaths()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.ReferencePathsSetITaskItemArray">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_ReferencePaths(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.SourceCodeFilesGet">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.get_SourceCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimGenerateTemporaryAssemblyTask.AllInstances.SourceCodeFilesSetITaskItemArray">
+            <summary>Sets the shim of GenerateTemporaryAssemblyTask.set_SourceCodeFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject">
+            <summary>Shim type of Microsoft.Build.Tasks.Xaml.NamedObject</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.#ctor(Microsoft.Build.Tasks.Xaml.NamedObject)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.Constructor">
+            <summary>Sets the shim of NamedObject.NamedObject()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.NameGet">
+            <summary>Sets the shim of NamedObject.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.NameSetString">
+            <summary>Sets the shim of NamedObject.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.TypeGet">
+            <summary>Sets the shim of NamedObject.get_Type()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.TypeSetXamlType">
+            <summary>Sets the shim of NamedObject.set_Type(XamlType value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.VisibilityGet">
+            <summary>Sets the shim of NamedObject.get_Visibility()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.VisibilitySetMemberVisibility">
+            <summary>Sets the shim of NamedObject.set_Visibility(MemberVisibility value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.AllInstances.NameGet">
+            <summary>Sets the shim of NamedObject.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.AllInstances.NameSetString">
+            <summary>Sets the shim of NamedObject.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.AllInstances.TypeGet">
+            <summary>Sets the shim of NamedObject.get_Type()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.AllInstances.TypeSetXamlType">
+            <summary>Sets the shim of NamedObject.set_Type(XamlType value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.AllInstances.VisibilityGet">
+            <summary>Sets the shim of NamedObject.get_Visibility()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimNamedObject.AllInstances.VisibilitySetMemberVisibility">
+            <summary>Sets the shim of NamedObject.set_Visibility(MemberVisibility value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask">
+            <summary>Shim type of Microsoft.Build.Tasks.Xaml.PartialClassGenerationTask</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.#ctor(Microsoft.Build.Tasks.Xaml.PartialClassGenerationTask)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.Bind(Microsoft.Build.Framework.ITask)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.ApplicationMarkupGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_ApplicationMarkup()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.ApplicationMarkupSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_ApplicationMarkup(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AssemblyNameGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_AssemblyName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AssemblyNameSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_AssemblyName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.BuildTaskPathGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_BuildTaskPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.BuildTaskPathSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_BuildTaskPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.Constructor">
+            <summary>Sets the shim of PartialClassGenerationTask.PartialClassGenerationTask()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.Execute">
+            <summary>Sets the shim of PartialClassGenerationTask.Execute()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.GeneratedCodeFilesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_GeneratedCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.GeneratedCodeFilesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_GeneratedCodeFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.GeneratedResourcesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_GeneratedResources()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.GeneratedResourcesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_GeneratedResources(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.GeneratedSourceExtensionGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_GeneratedSourceExtension()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.GeneratedSourceExtensionSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_GeneratedSourceExtension(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.IsInProcessXamlMarkupCompileGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_IsInProcessXamlMarkupCompile()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.IsInProcessXamlMarkupCompileSetBoolean">
+            <summary>Sets the shim of PartialClassGenerationTask.set_IsInProcessXamlMarkupCompile(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.KnownReferencePathsGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_KnownReferencePaths()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.KnownReferencePathsSetStringArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_KnownReferencePaths(String[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.LanguageGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_Language()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.LanguageSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_Language(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.MSBuildProjectDirectoryGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_MSBuildProjectDirectory()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.MSBuildProjectDirectorySetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_MSBuildProjectDirectory(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.OutputPathGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_OutputPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.OutputPathSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_OutputPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.ReferencesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_References()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.ReferencesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_References(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.RequiresCompilationPass2Get">
+            <summary>Sets the shim of PartialClassGenerationTask.get_RequiresCompilationPass2()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.RequiresCompilationPass2SetBoolean">
+            <summary>Sets the shim of PartialClassGenerationTask.set_RequiresCompilationPass2(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.RootNamespaceGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_RootNamespace()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.RootNamespaceSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_RootNamespace(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.SourceCodeFilesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_SourceCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.SourceCodeFilesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_SourceCodeFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.XamlBuildTypeGenerationExtensionNamesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_XamlBuildTypeGenerationExtensionNames()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.XamlBuildTypeGenerationExtensionNamesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_XamlBuildTypeGenerationExtensionNames(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.XamlBuildTypeInspectionExtensionNamesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_XamlBuildTypeInspectionExtensionNames()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.XamlBuildTypeInspectionExtensionNamesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_XamlBuildTypeInspectionExtensionNames(ITaskItem[] value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.ApplicationMarkupGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_ApplicationMarkup()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.ApplicationMarkupSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_ApplicationMarkup(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.AssemblyNameGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_AssemblyName()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.AssemblyNameSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_AssemblyName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.BuildTaskPathGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_BuildTaskPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.BuildTaskPathSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_BuildTaskPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.Execute">
+            <summary>Sets the shim of PartialClassGenerationTask.Execute()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.GeneratedCodeFilesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_GeneratedCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.GeneratedCodeFilesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_GeneratedCodeFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.GeneratedResourcesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_GeneratedResources()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.GeneratedResourcesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_GeneratedResources(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.GeneratedSourceExtensionGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_GeneratedSourceExtension()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.GeneratedSourceExtensionSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_GeneratedSourceExtension(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.IsInProcessXamlMarkupCompileGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_IsInProcessXamlMarkupCompile()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.IsInProcessXamlMarkupCompileSetBoolean">
+            <summary>Sets the shim of PartialClassGenerationTask.set_IsInProcessXamlMarkupCompile(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.KnownReferencePathsGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_KnownReferencePaths()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.KnownReferencePathsSetStringArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_KnownReferencePaths(String[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.LanguageGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_Language()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.LanguageSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_Language(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.MSBuildProjectDirectoryGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_MSBuildProjectDirectory()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.MSBuildProjectDirectorySetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_MSBuildProjectDirectory(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.OutputPathGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_OutputPath()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.OutputPathSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_OutputPath(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.ReferencesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_References()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.ReferencesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_References(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.RequiresCompilationPass2Get">
+            <summary>Sets the shim of PartialClassGenerationTask.get_RequiresCompilationPass2()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.RequiresCompilationPass2SetBoolean">
+            <summary>Sets the shim of PartialClassGenerationTask.set_RequiresCompilationPass2(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.RootNamespaceGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_RootNamespace()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.RootNamespaceSetString">
+            <summary>Sets the shim of PartialClassGenerationTask.set_RootNamespace(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.SourceCodeFilesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_SourceCodeFiles()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.SourceCodeFilesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_SourceCodeFiles(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.XamlBuildTypeGenerationExtensionNamesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_XamlBuildTypeGenerationExtensionNames()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.XamlBuildTypeGenerationExtensionNamesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_XamlBuildTypeGenerationExtensionNames(ITaskItem[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.XamlBuildTypeInspectionExtensionNamesGet">
+            <summary>Sets the shim of PartialClassGenerationTask.get_XamlBuildTypeInspectionExtensionNames()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPartialClassGenerationTask.AllInstances.XamlBuildTypeInspectionExtensionNamesSetITaskItemArray">
+            <summary>Sets the shim of PartialClassGenerationTask.set_XamlBuildTypeInspectionExtensionNames(ITaskItem[] value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData">
+            <summary>Shim type of Microsoft.Build.Tasks.Xaml.PropertyData</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.#ctor(Microsoft.Build.Tasks.Xaml.PropertyData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.AttributesGet">
+            <summary>Sets the shim of PropertyData.get_Attributes()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.Constructor">
+            <summary>Sets the shim of PropertyData.PropertyData()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.NameGet">
+            <summary>Sets the shim of PropertyData.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.NameSetString">
+            <summary>Sets the shim of PropertyData.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.TypeGet">
+            <summary>Sets the shim of PropertyData.get_Type()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.TypeSetXamlType">
+            <summary>Sets the shim of PropertyData.set_Type(XamlType value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.VisibilityGet">
+            <summary>Sets the shim of PropertyData.get_Visibility()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.VisibilitySetMemberVisibility">
+            <summary>Sets the shim of PropertyData.set_Visibility(MemberVisibility value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.AllInstances.AttributesGet">
+            <summary>Sets the shim of PropertyData.get_Attributes()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.AllInstances.NameGet">
+            <summary>Sets the shim of PropertyData.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.AllInstances.NameSetString">
+            <summary>Sets the shim of PropertyData.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.AllInstances.TypeGet">
+            <summary>Sets the shim of PropertyData.get_Type()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.AllInstances.TypeSetXamlType">
+            <summary>Sets the shim of PropertyData.set_Type(XamlType value)</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.AllInstances.VisibilityGet">
+            <summary>Sets the shim of PropertyData.get_Visibility()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimPropertyData.AllInstances.VisibilitySetMemberVisibility">
+            <summary>Sets the shim of PropertyData.set_Visibility(MemberVisibility value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext">
+            <summary>Shim type of Microsoft.Build.Tasks.Xaml.XamlBuildTypeGenerationExtensionContext</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext.#ctor(Microsoft.Build.Tasks.Xaml.XamlBuildTypeGenerationExtensionContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext.Constructor">
+            <summary>Sets the shim of XamlBuildTypeGenerationExtensionContext.XamlBuildTypeGenerationExtensionContext()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext.InputTaskItemGet">
+            <summary>Sets the shim of XamlBuildTypeGenerationExtensionContext.get_InputTaskItem()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext.InputTaskItemSetITaskItem">
+            <summary>Sets the shim of XamlBuildTypeGenerationExtensionContext.set_InputTaskItem(ITaskItem value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext.AllInstances.InputTaskItemGet">
+            <summary>Sets the shim of XamlBuildTypeGenerationExtensionContext.get_InputTaskItem()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeGenerationExtensionContext.AllInstances.InputTaskItemSetITaskItem">
+            <summary>Sets the shim of XamlBuildTypeGenerationExtensionContext.set_InputTaskItem(ITaskItem value)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeInspectionExtensionContext">
+            <summary>Shim type of Microsoft.Build.Tasks.Xaml.XamlBuildTypeInspectionExtensionContext</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeInspectionExtensionContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeInspectionExtensionContext.#ctor(Microsoft.Build.Tasks.Xaml.XamlBuildTypeInspectionExtensionContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeInspectionExtensionContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeInspectionExtensionContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeInspectionExtensionContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeInspectionExtensionContext.Constructor">
+            <summary>Sets the shim of XamlBuildTypeInspectionExtensionContext.XamlBuildTypeInspectionExtensionContext()</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeInspectionExtensionContext.MarkupItemsByTypeNameGet">
+            <summary>Sets the shim of XamlBuildTypeInspectionExtensionContext.get_MarkupItemsByTypeName()</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeInspectionExtensionContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.ShimXamlBuildTypeInspectionExtensionContext.AllInstances.MarkupItemsByTypeNameGet">
+            <summary>Sets the shim of XamlBuildTypeInspectionExtensionContext.get_MarkupItemsByTypeName()</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.StubClassData">
+            <summary>Stub type of Microsoft.Build.Tasks.Xaml.ClassData</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubClassData.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubClassData.InitializeStub">
+            <summary>Initializes a new instance of type StubClassData</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubClassData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubClassData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubClassData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.StubCompilationPass2Task">
+            <summary>Stub type of Microsoft.Build.Tasks.Xaml.CompilationPass2Task</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubCompilationPass2Task.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubCompilationPass2Task.Execute">
+            <summary>Sets the stub of CompilationPass2Task.Execute()</summary>
+        </member>
+        <member name="F:Microsoft.Build.Tasks.Xaml.Fakes.StubCompilationPass2Task.Execute01">
+            <summary>Sets the stub of CompilationPass2Task.Execute()</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubCompilationPass2Task.InitializeStub">
+            <summary>Initializes a new instance of type StubCompilationPass2Task</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubCompilationPass2Task.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubCompilationPass2Task.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubCompilationPass2Task.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.StubGenerateTemporaryAssemblyTask">
+            <summary>Stub type of Microsoft.Build.Tasks.Xaml.GenerateTemporaryAssemblyTask</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubGenerateTemporaryAssemblyTask.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubGenerateTemporaryAssemblyTask.Execute">
+            <summary>Sets the stub of GenerateTemporaryAssemblyTask.Execute()</summary>
+        </member>
+        <member name="F:Microsoft.Build.Tasks.Xaml.Fakes.StubGenerateTemporaryAssemblyTask.Execute01">
+            <summary>Sets the stub of GenerateTemporaryAssemblyTask.Execute()</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubGenerateTemporaryAssemblyTask.InitializeStub">
+            <summary>Initializes a new instance of type StubGenerateTemporaryAssemblyTask</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubGenerateTemporaryAssemblyTask.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubGenerateTemporaryAssemblyTask.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubGenerateTemporaryAssemblyTask.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.StubIXamlBuildTypeGenerationExtension">
+            <summary>Stub type of Microsoft.Build.Tasks.Xaml.IXamlBuildTypeGenerationExtension</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubIXamlBuildTypeGenerationExtension.#ctor">
+            <summary>Initializes a new instance of type StubIXamlBuildTypeGenerationExtension</summary>
+        </member>
+        <member name="F:Microsoft.Build.Tasks.Xaml.Fakes.StubIXamlBuildTypeGenerationExtension.ExecuteClassDataXamlBuildTypeGenerationExtensionContext">
+            <summary>Sets the stub of IXamlBuildTypeGenerationExtension.Execute(ClassData classData, XamlBuildTypeGenerationExtensionContext buildContext)</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubIXamlBuildTypeGenerationExtension.xbt::Microsoft#Build#Tasks#Xaml#IXamlBuildTypeGenerationExtension#Execute(Microsoft.Build.Tasks.Xaml.ClassData,Microsoft.Build.Tasks.Xaml.XamlBuildTypeGenerationExtensionContext)">
+            <summary>Sets the stub of IXamlBuildTypeGenerationExtension.Execute(ClassData classData, XamlBuildTypeGenerationExtensionContext buildContext)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.StubIXamlBuildTypeInspectionExtension">
+            <summary>Stub type of Microsoft.Build.Tasks.Xaml.IXamlBuildTypeInspectionExtension</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubIXamlBuildTypeInspectionExtension.#ctor">
+            <summary>Initializes a new instance of type StubIXamlBuildTypeInspectionExtension</summary>
+        </member>
+        <member name="F:Microsoft.Build.Tasks.Xaml.Fakes.StubIXamlBuildTypeInspectionExtension.ExecuteXamlBuildTypeInspectionExtensionContext">
+            <summary>Sets the stub of IXamlBuildTypeInspectionExtension.Execute(XamlBuildTypeInspectionExtensionContext buildContext)</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubIXamlBuildTypeInspectionExtension.xbt::Microsoft#Build#Tasks#Xaml#IXamlBuildTypeInspectionExtension#Execute(Microsoft.Build.Tasks.Xaml.XamlBuildTypeInspectionExtensionContext)">
+            <summary>Sets the stub of IXamlBuildTypeInspectionExtension.Execute(XamlBuildTypeInspectionExtensionContext buildContext)</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.StubNamedObject">
+            <summary>Stub type of Microsoft.Build.Tasks.Xaml.NamedObject</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubNamedObject.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubNamedObject.InitializeStub">
+            <summary>Initializes a new instance of type StubNamedObject</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubNamedObject.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubNamedObject.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubNamedObject.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Build.Tasks.Xaml.Fakes.StubPartialClassGenerationTask">
+            <summary>Stub type of Microsoft.Build.Tasks.Xaml.PartialClassGenerationTask</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubPartialClassGenerationTask.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubPartialClassGenerationTask.Execute">
+            <summary>Sets the stub of PartialClassGenerationTask.Execute()</summary>
+        </member>
+        <member name="F:Microsoft.Build.Tasks.Xaml.Fakes.StubPartialClassGenerationTask.Execute01">
+            <summary>Sets the stub of PartialClassGenerationTask.Execute()</summary>
+        </member>
+        <member name="M:Microsoft.Build.Tasks.Xaml.Fakes.StubPartialClassGenerationTask.InitializeStub">
+            <summary>Initializes a new instance of type StubPartialClassGenerationTask</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubPartialClassGenerationTask.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubPartialClassGenerationTask.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Build.Tasks.Xaml.Fakes.StubPartialClassGenerationTask.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

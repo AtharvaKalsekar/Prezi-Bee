@@ -14,7 +14,19 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO.Ports;
 using System.Windows.Forms;
+using System.Runtime;
+using System.Runtime.InteropServices.WindowsRuntime;
+using System.Windows;
+using Windows.Devices.Bluetooth.Rfcomm;
+using Windows.Networking.Sockets;
+using Windows.Devices.Enumeration;
+using Windows.Devices.Enumeration.Pnp;
+using Windows.Storage.Streams;
+
+
 namespace myproject
+   
+
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,11 +35,17 @@ namespace myproject
     {
         public MainWindow()
         {
-            InitializeComponent();
+           // InitializeComponent();
         }
+        private DeviceInformationCollection rfcommServiceInfoCollection;
+
+        private StreamSocket streamSocket;
+
+        private RfcommDeviceService rfcommDeviceService;
 
 
-        SerialPort MyPort = new SerialPort("COM5", 9600);//Adjust the comp port
+
+        /*SerialPort MyPort = new SerialPort("COM5", 9600);//Adjust the comp port
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             String tx = TXWINDOW.Text;
@@ -76,7 +94,46 @@ namespace myproject
             if (MyPort.IsOpen)
                 MyPort.Close();
             Connect.IsEnabled = true;
+        }*/
+
+        private async void  Button_Click_3(object sender, RoutedEventArgs e)
+        {rfcommServiceInfoCollection = await DeviceInformation.FindAllAsync(
+                RfcommDeviceService.GetDeviceSelector(RfcommServiceId.ObexObjectPush));
+
+            var count = rfcommServiceInfoCollection.Count;
+
+            Debug.WriteLine("Count of RFCOMM Service: " + count);
+
+            if(count > 0)
+            {
+                lock (this)
+                {
+                    streamSocket = new StreamSocket();
+                }
+
+                var defaultSvcInfo = rfcommServiceInfoCollection.FirstOrDefault();
+
+                rfcommDeviceService = await RfcommDeviceService.FromIdAsync(defaultSvcInfo.Id);
+
+                if(rfcommDeviceService == null)
+                {
+                    Debug.WriteLine("Rfcomm Device Service is NULL, ID = {0}", defaultSvcInfo.Id);
+
+                    return;
+                }
+
+                Debug.WriteLine("ConnectionHostName: {0}, ConnectionServiceName: {1}", rfcommDeviceService.ConnectionHostName, rfcommDeviceService.ConnectionServiceName);
+
+                await streamSocket.ConnectAsync(rfcommDeviceService.ConnectionHostName, rfcommDeviceService.ConnectionServiceName);
+
+                dataWriter = new DataWriter(streamSocket.OutputStream);
+
+                connectButton.Visibility = Visibility.Collapsed;
+            }
         }
+          
+          
+        
 
        /* private void Button_Click(object sender, RoutedEventArgs e)
         {
